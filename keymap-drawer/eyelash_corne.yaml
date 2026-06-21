@@ -223,7 +223,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:volume-high$$
-  - RGB BRI
+  - $$mdi:brightness-5$$
   - RGB ON
   - $$mdi:progress-download$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -237,7 +237,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {type: held}
   - $$mdi:volume-low$$
-  - RGB BRD
+  - $$mdi:brightness-7$$
   - RGB OFF
   - RGB BRI
   - RGB BRD
