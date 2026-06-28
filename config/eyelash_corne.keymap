@@ -56,7 +56,7 @@
             bindings = <&kp>, <&kp>;
         };
 
-        spc_eq: comma_dot {
+        comma_dot: comma_dot {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "hold-preferred";
@@ -294,7 +294,7 @@
             display-name = "NUMBER";
             bindings = <
 &kp ESC    &kp N7      &kp N8      &kp N9       &kp FSLH      &kp ASTRK                              &mmv MOVE_UP                     &kp LBKT        &kp RBKT         &kp C_PREV       &kp C_PP        &kp C_NEXT    &kp C_MUTE
-&kp CARET  &kp N4      &kp N5      &kp N6       &kp MINUS     &kp PLUS               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LBRC        &h LSHIFT RBRC  &hm LCTRL PRINTSCREEN  &hm LALT INSERT &hm LGUI HOME &kp PG_UP
+&kp CARET  &kp N4      &kp N5      &kp N6       &kp MINUS     &kp PLUS               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LBRC        &hm LSHIFT RBRC  &hm LCTRL PRINTSCREEN  &hm LALT INSERT &hm LGUI HOME &kp PG_UP
 &kp PRCNT  &kp N1      &kp N2      &kp N3       &kp LPAR      &kp RPAR       &trans                  &mmv MOVE_DOWN                   &kp LT          &kp GT           &mo 4            &kp DEL         &kp END       &kp PG_DN
                                    &kp N0       &comma_dot COMMA DOT       &spc_eq SPACE EQUAL                                                     &trans          &trans           &trans
             >;
@@ -342,7 +342,7 @@
             display-name = "Navigation";
             bindings = <
 &none  &none  &kp UP    &none      &kp HOME  &kp PG_UP                              &mmv MOVE_UP                     &none     &none     &none      &none       &none  &trans
-&none  &kp LEFT &kp DOWN  &kp RIGHT  &kp END   &kp PG_DN              &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp none  &kp LSHIFT  &kp LCTRL  &kp LALT  &kp LGUI   &none
+&none  &kp LEFT &kp DOWN  &kp RIGHT  &kp END   &kp PG_DN              &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none  &kp LSHIFT  &kp LCTRL  &kp LALT  &kp LGUI   &none
 &none  &none  &none     &none      &none     &none          &trans                   &mmv MOVE_DOWN                   &none     &none     &none      &none       &none   &none
                         &none      &none     &none                                                                   &none     &none     &none
             >;
