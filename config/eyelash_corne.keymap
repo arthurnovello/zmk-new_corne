@@ -320,7 +320,7 @@
 &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &kp F6                                 &mmv MOVE_UP                     &kp F7     &kp F8   &kp F9     &kp F10  &kp F11  &kp F12
 &kp F13   &kp F14   &kp F15   &kp F16   &kp F17   &kp F18                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F19    &kp F19  &kp F20    &kp F21  &kp F23  &kp F24
 &trans    &none     &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT     &trans                   &mmv MOVE_DOWN                   &kp HOME   &kp END  &kp PG_UP  &kp PG_DN &none    &none
-                              &kp LC(LS(LA(LG(O))))  &kp LC(LS(LA(LG(T))))  &kp LC(LS(LA(LG(Y))))                               &kp RCTRL  &kp RALT   &kp TAB
+                              &kp LC(LS(LA(LG(O))))  &kp LC(LS(LA(LG(T))))  &kp LC(LS(LA(LG(Y))))                               &kp LCTRL  &kp LALT   &kp TAB
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
