@@ -73,7 +73,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - '{'
-  - '&h LSHIFT RBRC'
+  - {t: '}', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: PRINTSCREEN, h: '$$mdi:apple-keyboard-control$$'}
   - {t: Ins, h: '$$mdi:apple-keyboard-option$$'}
   - {t: HOME, h: LGUI}
@@ -93,7 +93,7 @@ layers:
   - END
   - PG DN
   - {t: '0', s: )}
-  - '&comma_dot COMMA DOT'
+  - {t: ., h: ',', s: '>'}
   - {t: '=', h: '$$mdi:keyboard-space$$', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -268,7 +268,7 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - none
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
