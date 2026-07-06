@@ -48,7 +48,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - NUMBER
+  - '&td1'
   NUMBER:
   - $$mdi:keyboard-esc$$
   - {t: '7', s: '&'}
@@ -93,11 +93,11 @@ layers:
   - END
   - PG DN
   - {t: '0', s: )}
-  - {t: ., h: ',', s: '>'}
+  - '&comma_dot'
   - {t: '=', h: '$$mdi:keyboard-space$$', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: NUMBER, h: toggle}
   SYMBOL:
   - '!'
   - '@'
@@ -244,7 +244,7 @@ layers:
   - RGB TOG
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:progress-download$$
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   Navigation:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
